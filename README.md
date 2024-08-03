@@ -10,11 +10,16 @@ This name is, **from the Japanese** "あずき (Azuki)".
 
 **"あずき" is "Red beans"** in the English.
 
+### Why does Azuki.ai work?
+1. Load GPT2 and That Tokenizer.
+2. Add dataset for fine tuning, and Training Model using That.
+3. Extract New Model.
+4. Complete! This is all you need!
+
 ### Roadmap
 - [x] Base Script and Structure
 - [ ] Chat Plugin (Prompt Continue)
-- [x] XS Model
-- [ ] SM Model
+- [x] SM Model (Former name "XS")
 - [ ] MD Model
 - [ ] LG Model
 - [ ] XL Model
@@ -30,7 +35,6 @@ Please cooperate.
 
 ### NOTE
 Divided the dataset into the following six categories:
-- **Extra Small** (xs) **:** Too Small Model (e.g., Testing Azuki.ai)
 - **Small** (sm) **:** A small, highly efficient dataset for mobile devices (e.g., generating sentence continuations)
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
 - **Large** (lg) **:** A large, smart dataset for medium-spec PCs (e.g., solving general problems)
