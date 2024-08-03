@@ -27,7 +27,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 And more!
 
 ## Require Spec
-- SM Model: Can be run on some smartphones, and almost all PCs from 2010 onwards
+- SM Model: Can be run on some smartphones, and almost all PCs from 2015 onwards
 - MD Model: Incomplete
 - LG Model: Incomplete
 - XL Model: Incomplete
