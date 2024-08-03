@@ -22,5 +22,6 @@ In the future, we plan to divide the dataset into the following six categories:
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
 ## Customize Output
-1. Edit data.json
-2. Execute Training Script
+1. Download Latest Default Dataset
+2. Edit data-{size}.json
+3. Execute Training Script
