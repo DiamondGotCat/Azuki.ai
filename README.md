@@ -10,13 +10,13 @@ This name is, **from the Japanese** "あずき (Azuki)".
 
 **"あずき" is "Red beans"** in the English.
 
-### Why does Azuki.ai work?
+## Why does Azuki.ai work?
 1. Load GPT2 and That Tokenizer.
 2. Add dataset for fine tuning, and Training Model using That.
 3. Extract New Model.
 4. Complete! This is all you need!
 
-### Roadmap
+## Roadmap
 - [x] Base Script and Structure
 - [ ] Chat Plugin (Prompt Continue)
 - [x] SM Model (Former name "XS")
@@ -25,6 +25,12 @@ This name is, **from the Japanese** "あずき (Azuki)".
 - [ ] XL Model
 
 And more!
+
+## Require Spec
+- SM Model: Can be run on some smartphones, and almost all PCs from 2010 onwards
+- MD Model: Incomplete
+- LG Model: Incomplete
+- XL Model: Incomplete
 
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
