@@ -1,6 +1,11 @@
 
 ![Azuki](https://github.com/user-attachments/assets/2bcfd1d5-7998-4b3f-8e42-fe7269082d19)
 
+### What is this Naming!?
+This name is, **from the Japanese** "あずき (Azuki)".
+
+**"あずき" is "Red beans"** in the English.
+
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
