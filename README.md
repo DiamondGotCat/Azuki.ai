@@ -6,7 +6,7 @@
 Please cooperate.
 
 ### NOTE
-In the future, we plan to divide the dataset into the following six categories:
+Divided the dataset into the following six categories:
 - **Extra Small** (xs) **:** Too Small Model (e.g., Testing Azuki.ai)
 - **Small** (sm) **:** A small, highly efficient dataset for mobile devices (e.g., generating sentence continuations)
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
