@@ -14,6 +14,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 - [ ] MD Model
 - [ ] LG Model
 - [ ] XL Model
+And more!
 
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
