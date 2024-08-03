@@ -12,7 +12,12 @@ size = input("SizeID: ")
 with open(f'data-{size}.json') as f:
     data = json.load(f)
 
-df = pd.DataFrame(data)
+ldata = []
+for d in data:
+    for i in range(1,10):
+        ldata.append(d)
+
+df = pd.DataFrame(ldata)
 
 # データセットの準備
 class QADataset(Dataset):
@@ -65,7 +70,7 @@ training_args = TrainingArguments(
     num_train_epochs=3,
     per_device_train_batch_size=2,
     per_device_eval_batch_size=2,
-    warmup_steps=500,
+    warmup_steps=250,
     weight_decay=0.01,
     logging_dir='./logs',
     logging_steps=10
