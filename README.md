@@ -42,7 +42,7 @@ Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Az
 Please cooperate.
 
 ### NOTE
-Divided the dataset into the following six categories:
+Divided the dataset into the following five categories:
 - **Small** (sm) **:** A small, highly efficient dataset for mobile devices (e.g., generating sentence continuations)
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
 - **Large** (lg) **:** A large, smart dataset for medium-spec PCs (e.g., solving general problems)
