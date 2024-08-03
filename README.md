@@ -6,6 +6,15 @@ This name is, **from the Japanese** "あずき (Azuki)".
 
 **"あずき" is "Red beans"** in the English.
 
+### Roadmap
+- [x] Base Script and Structure
+- [ ] Chat Plugin (Prompt Continue)
+- [x] XS Model
+- [ ] SM Model
+- [ ] MD Model
+- [ ] LG Model
+- [ ] XL Model
+
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
