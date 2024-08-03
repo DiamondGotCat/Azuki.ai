@@ -20,6 +20,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 - [x] Base Script and Structure
 - [ ] Chat Plugin (Prompt Continue)
 - [x] SM Model (Former name "XS")
+- [ ] JP Model
 - [ ] MD Model
 - [ ] LG Model
 - [ ] XL Model
@@ -31,6 +32,7 @@ And more!
 - MD Model: Incomplete
 - LG Model: Incomplete
 - XL Model: Incomplete
+- JP Model: Incomplete
 
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
@@ -45,6 +47,7 @@ Divided the dataset into the following six categories:
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
 - **Large** (lg) **:** A large, smart dataset for medium-spec PCs (e.g., solving general problems)
 - **Extra Large** (xl) **:** An extra-large, high-spec dataset for a Mac M1 or so (e.g., solving math problems for high school students)
+- **Japanese** (jp) **:** Japanese Model
 
 ## Files
 - **execute.py:** Runner
