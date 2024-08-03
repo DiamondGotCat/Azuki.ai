@@ -1,6 +1,9 @@
 
 ![Azuki](https://github.com/user-attachments/assets/2bcfd1d5-7998-4b3f-8e42-fe7269082d19)
 
+## Latest default dataset for Azuki.ai
+Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
+
 ## Dataset Contribute
 **To make this project bigger, we need to make the dataset bigger.**
 Please cooperate.
@@ -16,9 +19,6 @@ Divided the dataset into the following six categories:
 ## Files
 - **execute.py:** Runner
 - **training.py:** Training Script
-
-## Latest default dataset for Azuki.ai
-Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
 ## Customize Output
 1. Download Latest Default Dataset
