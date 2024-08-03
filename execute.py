@@ -29,5 +29,5 @@ generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 result = generated_text[len(prompt):]
 
 # 結果を表示
-print(f"プロンプト: {prompt}")
-print(f"生成されたテキスト: {result}")
+print(f"your prompt: {prompt}")
+print(f"generated: {result}")
