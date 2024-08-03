@@ -7,7 +7,7 @@
 Please cooperate.
 
 ### NOTE
-In the future, we plan to divide the dataset into the following five categories:
+In the future, we plan to divide the dataset into the following six categories:
 - **Extra Small** (xs) **:** Too Small Model (e.g., Testing Azuki.ai)
 - **Small** (sm) **:** A small, highly efficient dataset for mobile devices (e.g., generating sentence continuations)
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
@@ -15,9 +15,11 @@ In the future, we plan to divide the dataset into the following five categories:
 - **Extra Large** (xl) **:** An extra-large, high-spec dataset for a Mac M1 or so (e.g., solving math problems for high school students)
 
 ## Files
-- **data.json:** Training Dataset
 - **execute.py:** Runner
 - **training.py:** Training Script
+
+## Latest default dataset for Azuki.ai
+Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
 ## Customize Output
 1. Edit data.json
