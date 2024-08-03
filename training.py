@@ -6,8 +6,10 @@ import json
 
 # ステップ1: データの準備
 
+size = input("SizeID: ")
+
 # JSONデータの読み込み
-with open('data.json') as f:
+with open(f'data-{size}.json') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
