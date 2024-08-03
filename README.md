@@ -1,5 +1,5 @@
 # Azuki.ai
-Small, text generation AI (Created by DiamondGotCat)
+A community-driven generative AI project
 
 ## Dataset Contribute
 **To make this project bigger, we need to make the dataset bigger.**
