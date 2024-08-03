@@ -11,7 +11,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 **"あずき" is "Red beans"** in the English.
 
 ## Why does Azuki.ai work?
-1. Load GPT2 and That Tokenizer.
+1. Load GPT2 and that Tokenizer.
 2. Add dataset for fine tuning, and Training Model using That.
 3. Extract New Model.
 4. Complete! This is all you need!
