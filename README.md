@@ -1,6 +1,10 @@
 
 ![Azuki](https://github.com/user-attachments/assets/2bcfd1d5-7998-4b3f-8e42-fe7269082d19)
 
+Azuki.ai is a fully customizable AI.
+
+Everything can be changed from the dataset state.
+
 ### What is this Naming!?
 This name is, **from the Japanese** "あずき (Azuki)".
 
