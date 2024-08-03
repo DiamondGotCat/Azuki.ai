@@ -1,5 +1,6 @@
-# Azuki.ai
-A community-driven generative AI project
+
+![Azuki](https://github.com/user-attachments/assets/7b3ec4d9-6d31-4193-9845-47d15fecd934)
+
 
 ## Dataset Contribute
 **To make this project bigger, we need to make the dataset bigger.**
