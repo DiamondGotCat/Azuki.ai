@@ -48,6 +48,11 @@ And more!
 - XL Model: Incomplete
 - JP Model: Incomplete
 
+## We need stars!
+If you like it, please click the star right away.
+
+It will help us spread our project to more people.
+
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
