@@ -18,6 +18,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 
 ## Roadmap
 - [x] Base Script and Structure
+- [ ] Essential Plugin (LLM can using External Compute. e.g., Calc using Python, Assist your Coding and more!)
 - [ ] Chat Plugin (Prompt Continue)
 - [x] SM Model (Former name "XS")
 - [ ] JP Model
