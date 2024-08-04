@@ -24,11 +24,13 @@ This name is, **from the Japanese** "あずき (Azuki)".
 - [x] MD Model
 - [ ] LG Model
 - [ ] XL Model
+- [x] CD Model
 
 And more!
 
 ## Require Spec
 - SM Model: Can be run on some smartphones, and almost all PCs from 2015 onwards
+- CD Model: Unknown
 - MD Model: Unknown
 - LG Model: Incomplete
 - XL Model: Incomplete
@@ -44,6 +46,7 @@ Please cooperate.
 ### NOTE
 Divided the dataset into the following five categories:
 - **Small** (sm) **:** A small, highly efficient dataset for mobile devices (e.g., generating sentence continuations)
+- **Code** (cd) **:** Python Knowledge (Small Model for Coding Assistant)
 - **Medium** (md) **:** A medium-sized, slightly smart dataset for low-spec PCs (e.g., solving common sense problems)
 - **Large** (lg) **:** A large, smart dataset for medium-spec PCs (e.g., solving general problems)
 - **Extra Large** (xl) **:** An extra-large, high-spec dataset for a Mac M1 or so (e.g., solving math problems for high school students)
