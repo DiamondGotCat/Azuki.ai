@@ -12,12 +12,7 @@ size = input("SizeID: ")
 with open(f'data-{size}.json') as f:
     data = json.load(f)
 
-ldata = []
-for d in data:
-    for i in range(1,2):
-        ldata.append(d)
-
-df = pd.DataFrame(ldata)
+df = pd.DataFrame(data)
 
 # データセットの準備
 class QADataset(Dataset):
