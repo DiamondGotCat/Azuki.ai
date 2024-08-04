@@ -14,7 +14,7 @@ with open(f'data-{size}.json') as f:
 
 ldata = []
 for d in data:
-    for i in range(1,5):
+    for i in range(1,2):
         ldata.append(d)
 
 df = pd.DataFrame(ldata)
