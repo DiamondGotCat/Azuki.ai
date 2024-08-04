@@ -21,7 +21,7 @@ This name is, **from the Japanese** "あずき (Azuki)".
 - [ ] Chat Plugin (Prompt Continue)
 - [x] SM Model (Former name "XS")
 - [ ] JP Model
-- [ ] MD Model
+- [x] MD Model
 - [ ] LG Model
 - [ ] XL Model
 
@@ -29,7 +29,7 @@ And more!
 
 ## Require Spec
 - SM Model: Can be run on some smartphones, and almost all PCs from 2015 onwards
-- MD Model: Incomplete
+- MD Model: Unknown
 - LG Model: Incomplete
 - XL Model: Incomplete
 - JP Model: Incomplete
