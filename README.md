@@ -53,6 +53,8 @@ If you like it, please click the star right away.
 
 It will help us spread our project to more people.
 
+[![Star History Chart](https://api.star-history.com/svg?repos=DiamondGotCat/Azuki.ai&type=Date)](https://star-history.com/#DiamondGotCat/Azuki.ai&Date)
+
 ## Latest default dataset for Azuki.ai
 Please download from [This Repo](https://github.com/DiamondGotCat/Dataset-for-Azuki.ai)
 
