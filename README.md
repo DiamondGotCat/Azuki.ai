@@ -1,5 +1,5 @@
 
-![Azuki](https://github.com/user-attachments/assets/2bcfd1d5-7998-4b3f-8e42-fe7269082d19)
+![AzukiNew-logoonly](https://github.com/user-attachments/assets/7ab88d54-fcfb-491a-93b1-f90116c51967)
 
 Azuki.ai is a fully customizable AI.
 
