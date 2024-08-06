@@ -82,3 +82,5 @@ Divided the dataset into the following five categories:
 1. Download Latest Default Dataset
 2. Edit data-{size}.json
 3. Execute Training Script
+
+![Ai](https://github.com/user-attachments/assets/55e60e59-f2ae-44d2-a1e3-46de808b48fb)
