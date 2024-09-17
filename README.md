@@ -1,5 +1,6 @@
+**This repository has moved to [Here](https://github.com/Azuki-ai/Azuki.ai)**
 
-![AzukiNew-logoonly](https://github.com/user-attachments/assets/7ab88d54-fcfb-491a-93b1-f90116c51967)
+---
 
 Azuki.ai is a fully customizable AI.
 
