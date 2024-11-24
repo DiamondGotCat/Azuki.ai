@@ -4,12 +4,8 @@ import torch
 from torch.utils.data import Dataset
 import json
 
-# ステップ1: データの準備
-
-size = input("SizeID: ")
-
 # JSONデータの読み込み
-with open(f'data-{size}.json') as f:
+with open(f'data.json') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
@@ -26,8 +22,8 @@ class QADataset(Dataset):
 
     def __getitem__(self, index):
         row = self.dataframe.iloc[index]
-        question = row['input']
-        answer = row['output']
+        question = "<start><user>" + row['input'] + "</user>"
+        answer = "<assistant>" + row['output'] + "</assistant>"
         encoding = self.tokenizer(
             question,
             answer,
@@ -47,12 +43,12 @@ class QADataset(Dataset):
 
 # ステップ2: モデルの選択
 
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2-large')
 
 # パディングトークンの設定
 tokenizer.pad_token = tokenizer.eos_token
 
-model = GPT2LMHeadModel.from_pretrained('gpt2')
+model = GPT2LMHeadModel.from_pretrained('gpt2-large')
 
 # ステップ3: モデルの微調整
 
@@ -62,10 +58,10 @@ train_dataset = QADataset(df, tokenizer)
 # トレーニングパラメータの設定
 training_args = TrainingArguments(
     output_dir='./results',
-    num_train_epochs=3,
-    per_device_train_batch_size=2,
-    per_device_eval_batch_size=2,
-    warmup_steps=250,
+    num_train_epochs=1,
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
+    warmup_steps=1,
     weight_decay=0.01,
     logging_dir='./logs',
     logging_steps=10
