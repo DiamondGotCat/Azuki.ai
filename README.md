@@ -2,7 +2,7 @@
 
 ---
 
-Azuki.ai is a fully customizable AI.
+Azuki.ai is a fully customizable LLM.
 Everything can be changed from the dataset state.
 
 ## How
