@@ -14,7 +14,7 @@ Everything can be changed from the dataset state.
 Azuki.ai has Step up to `N(Next) Models`.
 
 ## Roadmap (2024/11/24 Updated)
-- [ ] Model V1n
+- [x] Model V1n
 - [ ] Read Community's IDEA
 - [ ] Model V2n
 - [ ] ...more
