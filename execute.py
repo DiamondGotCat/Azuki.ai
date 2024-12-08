@@ -13,14 +13,15 @@ if tokenizer.pad_token is None:
 while True:
 
     # テキスト生成のためのプロンプト
-    prompt = input("prompt: ")
+    prompt = "<user>" + input("user_prompt: ") + "</user>"
 
     # トークナイズ
     inputs = tokenizer(prompt, return_tensors="pt")
 
     # テキスト生成
     outputs = model.generate(
-        inputs.input_ids, 
+        inputs.input_ids,
+        attention_mask=inputs.attention_mask,
         max_length=100,  # 生成する最大トークン数
         num_return_sequences=1,  # 生成するシーケンスの数
         pad_token_id=tokenizer.eos_token_id  # パディングトークンIDを設定
