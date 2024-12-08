@@ -14,7 +14,7 @@ Azuki.ai is a fully customizable LLM.
 Everything can be changed from the dataset state.
 
 ## How
-1. Load GPT2-Large
+1. Load GPT2-Medium
 2. Training with New Knowledge
 3. Output New Model
 
