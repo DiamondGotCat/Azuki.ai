@@ -1,5 +1,13 @@
-**STATUS: I'm trying my best, Please wait...**
+**STATUS: V1n Released!**
 
+```
+(base) diamondgotcat@DiamondGotCatnoMacBook-Air Azuki.ai % python execute.py
+user_prompt: What your name?
+prompt: <user>What your name?</user>
+result: <assistant>I am LLM, so I don't have Name.
+but, My ID is Azuki 1n.
+Nice to meet you!</assistant>
+```
 ---
 
 Azuki.ai is a fully customizable LLM.
