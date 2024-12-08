@@ -10,10 +10,14 @@ model = GPT2LMHeadModel.from_pretrained(model_save_path)
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
+prompt = ""
+
 while True:
 
     # テキスト生成のためのプロンプト
-    prompt = "<user>" + input("user_prompt: ") + "</user>"
+    prompt += "<user>" + input("> ") + "</user>"
+
+    print("---")
 
     # トークナイズ
     inputs = tokenizer(prompt, return_tensors="pt")
@@ -22,15 +26,15 @@ while True:
     outputs = model.generate(
         inputs.input_ids,
         attention_mask=inputs.attention_mask,
-        max_length=100,  # 生成する最大トークン数
+        max_length=4096,  # 生成する最大トークン数
         num_return_sequences=1,  # 生成するシーケンスの数
         pad_token_id=tokenizer.eos_token_id  # パディングトークンIDを設定
     )
 
     # 生成されたテキストをデコード
     generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-    result = generated_text[len(prompt):]
+    result = generated_text[len(prompt):].replace("<assistant>", "").replace("</assistant>", "").replace("<user>", "").replace("</user>", "")
 
-    # 結果を表示
-    print(f"prompt: {prompt}")
-    print(f"result: {result}")
+    prompt += result
+
+    print(f"{result}\n---")
