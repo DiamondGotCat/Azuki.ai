@@ -5,7 +5,7 @@ from torch.utils.data import Dataset
 import json
 
 # JSONデータの読み込み
-with open(f'data.json') as f:
+with open('data.json') as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
@@ -22,11 +22,9 @@ class QADataset(Dataset):
 
     def __getitem__(self, index):
         row = self.dataframe.iloc[index]
-        question = "<start><user>" + row['input'] + "</user>"
-        answer = "<assistant>" + row['output'] + "</assistant>"
         encoding = self.tokenizer(
-            question,
-            answer,
+            "<user>" + row['input'] + "</user>",
+            "<assistant>" + row['output'] + "</assistant>",
             max_length=self.max_length,
             padding='max_length',
             truncation=True,
@@ -43,12 +41,12 @@ class QADataset(Dataset):
 
 # ステップ2: モデルの選択
 
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2-large')
+tokenizer = GPT2Tokenizer.from_pretrained('openai-community/gpt2-medium')
 
 # パディングトークンの設定
 tokenizer.pad_token = tokenizer.eos_token
 
-model = GPT2LMHeadModel.from_pretrained('gpt2-large')
+model = GPT2LMHeadModel.from_pretrained('openai-community/gpt2-medium')
 
 # ステップ3: モデルの微調整
 
@@ -58,13 +56,14 @@ train_dataset = QADataset(df, tokenizer)
 # トレーニングパラメータの設定
 training_args = TrainingArguments(
     output_dir='./results',
-    num_train_epochs=1,
-    per_device_train_batch_size=1,
-    per_device_eval_batch_size=1,
-    warmup_steps=1,
+    num_train_epochs=5,
+    per_device_train_batch_size=2,
+    per_device_eval_batch_size=2,
+    warmup_steps=50,
     weight_decay=0.01,
     logging_dir='./logs',
-    logging_steps=10
+    logging_steps=1,
+    learning_rate=5e-5
 )
 
 # トレーナーの作成
