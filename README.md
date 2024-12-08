@@ -14,9 +14,9 @@ Azuki.ai is a fully customizable LLM.
 Everything can be changed from the dataset state.
 
 ## How
-1. Load GPT2-Medium
-2. Training with New Knowledge
-3. Output New Model
+1. Load GPT2-Medium (`https://huggingface.co/openai-community/gpt2-medium`)
+2. Training with New Knowledge (`data.json`)
+3. Output New Model (`trained_model/`)
 
 ## Next Steps
 Azuki.ai has Step up to `N(Next) Models`.
