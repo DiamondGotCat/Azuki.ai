@@ -3,14 +3,25 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArgume
 import torch
 from torch.utils.data import Dataset
 import json
+from rich.prompt import Prompt
 
-# JSONデータの読み込み
-with open('data.json') as f:
+mode = Prompt.ask("Mode", choices=["from GPT-2 Medium","from Trained Model"])
+
+if mode == "from Trained Model":
+    tokenizer = GPT2Tokenizer.from_pretrained('./trained_model')
+    model = GPT2LMHeadModel.from_pretrained('./trained_model')
+else:
+    tokenizer = GPT2Tokenizer.from_pretrained('openai-community/gpt2-medium')
+    model = GPT2LMHeadModel.from_pretrained('openai-community/gpt2-medium')
+tokenizer.pad_token = tokenizer.eos_token
+
+path = Prompt.ask("Path")
+
+with open(path) as f:
     data = json.load(f)
 
 df = pd.DataFrame(data)
 
-# データセットの準備
 class QADataset(Dataset):
     def __init__(self, dataframe, tokenizer, max_length=512):
         self.dataframe = dataframe
@@ -39,21 +50,8 @@ class QADataset(Dataset):
             'labels': labels
         }
 
-# ステップ2: モデルの選択
-
-tokenizer = GPT2Tokenizer.from_pretrained('openai-community/gpt2-medium')
-
-# パディングトークンの設定
-tokenizer.pad_token = tokenizer.eos_token
-
-model = GPT2LMHeadModel.from_pretrained('openai-community/gpt2-medium')
-
-# ステップ3: モデルの微調整
-
-# データセットの作成
 train_dataset = QADataset(df, tokenizer)
 
-# トレーニングパラメータの設定
 training_args = TrainingArguments(
     output_dir='./results',
     num_train_epochs=5,
@@ -65,24 +63,14 @@ training_args = TrainingArguments(
     logging_steps=1,
     learning_rate=5e-5
 )
-
-# トレーナーの作成
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
 )
-
-# モデルのトレーニング
 trainer.train()
-
-# ステップ4: モデルの保存
-
-# 保存ディレクトリの設定
 model_save_path = "./trained_model"
-
-# モデルの保存
 model.save_pretrained(model_save_path)
 tokenizer.save_pretrained(model_save_path)
 
-print(f"モデルが {model_save_path} に保存されました。")
+print(f"Model Saved to {model_save_path}")
