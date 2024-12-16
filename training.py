@@ -5,9 +5,9 @@ from torch.utils.data import Dataset
 import json
 from rich.prompt import Prompt
 
-mode = Prompt.ask("Mode", choices=["from GPT-2 Medium","from Trained Model"])
+mode = Prompt.ask("Training from", choices=["base","trained"])
 
-if mode == "from Trained Model":
+if mode == "trained":
     tokenizer = GPT2Tokenizer.from_pretrained('./trained_model')
     model = GPT2LMHeadModel.from_pretrained('./trained_model')
 else:
