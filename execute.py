@@ -12,6 +12,8 @@ prompt = ""
 
 while True:
 
+    prompt = ""
+
     prompt += "<user>" + input("> ") + "</user>"
 
     print("---")
