@@ -4,12 +4,12 @@ https://github.com/user-attachments/assets/a7161ca2-0f54-417b-bc22-4097bb9f061b
 **STATUS: V1n Released!**
 
 ```
-(base) diamondgotcat@DiamondGotCatnoMacBook-Air Azuki.ai % python execute.py
-user_prompt: What your name?
-prompt: <user>What your name?</user>
-result: <assistant>I am LLM, so I don't have Name.
-but, My ID is Azuki 1n.
-Nice to meet you!</assistant>
+(base) diamondgotcat@DGC-Mac Azuki.ai % python execute.py
+> What is 1 astronomical unit?
+---
+An astronomical unit is the unit of distance between the Earth and the sun.
+---
+> 
 ```
 ---
 
@@ -33,6 +33,9 @@ Azuki.ai has Step up to `N(Next) Models`.
 ## I need your help.
 Please star this repository.
 And if Can you Help Coding, Please create Pull Requests.
+
+## Size (Estimation)
+- Azuki 1n = 345M (0.345B)
 
 ---
 
