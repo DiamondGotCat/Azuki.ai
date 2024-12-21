@@ -37,6 +37,7 @@ And if Can you Help Coding, Please create Pull Requests.
 
 ## Size
 - Azuki 1n = 355M
+- Azuki 2n = 355M
 
 ---
 
