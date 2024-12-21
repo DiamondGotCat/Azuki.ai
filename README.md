@@ -1,7 +1,7 @@
 
 https://github.com/user-attachments/assets/a7161ca2-0f54-417b-bc22-4097bb9f061b
 
-**STATUS: V1n Released!**
+**STATUS: V2n Released!**
 
 ```
 (base) diamondgotcat@DGC-Mac Azuki.ai % python execute.py
