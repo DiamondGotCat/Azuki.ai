@@ -38,9 +38,9 @@ Azuki.ai has Step up to `N(Next) Models`.
 Please star this repository.
 And if Can you Help Coding, Please create Pull Requests.
 
-## Size
-- Azuki 1n = 355M
-- Azuki 2n = 355M
+## Base
+- Azuki 1n: GPT2 Medium (355M)
+- Azuki 2n: GPT2 Medium (355M)
 
 ---
 
