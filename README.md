@@ -24,6 +24,9 @@ Everything can be changed from the dataset state.
 ## Next Steps
 Azuki.ai has Step up to `N(Next) Models`.
 
+## Links
+| [Hugging Face](https://huggingface.co/collections/DiamondGotCat/azukiai-6766f124b834cec4be790855) |
+
 ## Roadmap (2024/12/22 Updated)
 - [x] Model V1n
 - [x] Model V2n
