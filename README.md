@@ -35,8 +35,8 @@ Azuki.ai has Step up to `N(Next) Models`.
 Please star this repository.
 And if Can you Help Coding, Please create Pull Requests.
 
-## Size (Estimation)
-- Azuki 1n = 345M (0.345B)
+## Size
+- Azuki 1n = 355M
 
 ---
 
