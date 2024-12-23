@@ -1,7 +1,7 @@
 
 https://github.com/user-attachments/assets/a7161ca2-0f54-417b-bc22-4097bb9f061b
 
-**STATUS: V1n Released!**
+**STATUS: V2n Released!**
 
 ```
 (base) diamondgotcat@DGC-Mac Azuki.ai % python execute.py
@@ -24,18 +24,33 @@ Everything can be changed from the dataset state.
 ## Next Steps
 Azuki.ai has Step up to `N(Next) Models`.
 
-## Roadmap (2024/12/8 Updated)
+## Links
+| [Hugging Face](https://huggingface.co/collections/DiamondGotCat/azukiai-6766f124b834cec4be790855) |
+
+## Roadmap (2024/12/22 Updated)
 - [x] Model V1n
+- [x] Model V2n
 - [ ] Read Community's IDEA
-- [ ] Model V2n
+- [ ] Model V3n
 - [ ] ...more
 
 ## I need your help.
-Please star this repository.
-And if Can you Help Coding, Please create Pull Requests.
 
-## Size (Estimation)
-- Azuki 1n = 345M (0.345B)
+### How to help (Easy) - Promoting this repository
+- Star this Repository
+- Start Issues (Feature Requests, or Bug Reports)
+- Share this repository
+
+### How to help (Hard) - Coding
+- Help Coding (with Pull Requests)
+
+### How to help (Very Hard) - Lend me the machine for free
+I'm trying to make more professional models (Mikata AI), but I can't make them with the machine I have.
+If you can lend me your machine for free, please let me know with [email](mailto:chii@kamu.jp).
+
+## Base
+- Azuki 1n: GPT2 Medium (355M)
+- Azuki 2n: GPT2 Medium (355M)
 
 ---
 
