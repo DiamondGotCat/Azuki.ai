@@ -35,8 +35,18 @@ Azuki.ai has Step up to `N(Next) Models`.
 - [ ] ...more
 
 ## I need your help.
-Please star this repository.
-And if Can you Help Coding, Please create Pull Requests.
+
+### How to help (Easy) - Promoting this repository
+- Star this Repository
+- Start Issues (Feature Requests, or Bug Reports)
+- Share this repository
+
+### How to help (Hard) - Coding
+- Help Coding (with Pull Requests)
+
+### How to help (Very Hard) - Lend me the machine for free
+I'm trying to make more professional models (Mikata AI), but I can't make them with the machine I have.
+If you can lend me your machine for free, please let me know with [email](mailto:chii@kamu.jp).
 
 ## Base
 - Azuki 1n: GPT2 Medium (355M)
