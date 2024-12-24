@@ -63,7 +63,7 @@ If you can lend me your machine for free, please let me know with [email](mailto
 ### Base Model
 - OpenAI
 
-### Help with Star
+### Helping with Star
 - [yyle88](https://github.com/yyle88)
 - [luckyjen](https://github.com/luckyjen)
 - [george0st](https://github.com/george0st)
