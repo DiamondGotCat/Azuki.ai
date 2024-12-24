@@ -36,6 +36,9 @@ Azuki.ai has Step up to `N(Next) Models`.
 
 ## I need your help.
 
+### Rewards for helping
+- Your GitHub account details will be included at the end of the README.
+
 ### How to help (Easy) - Promoting this repository
 - Star this Repository
 - Start Issues (Feature Requests, or Bug Reports)
@@ -51,6 +54,19 @@ If you can lend me your machine for free, please let me know with [email](mailto
 ## Base
 - Azuki 1n: GPT2 Medium (355M)
 - Azuki 2n: GPT2 Medium (355M)
+
+## Special Thanks
+
+### Main Developer
+- DiamondGotCat (Me)
+
+### Base Model
+- OpenAI
+
+### Help with Star
+- [yyle88](https://github.com/yyle88)
+- [luckyjen](https://github.com/luckyjen)
+- [george0st](https://github.com/george0st)
 
 ---
 
