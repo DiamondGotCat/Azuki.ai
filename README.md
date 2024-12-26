@@ -60,6 +60,9 @@ If you can lend me your machine for free, please let me know with [email](mailto
 ### Main Developer
 - DiamondGotCat (Me)
 
+### Main Library
+- Hugging Face
+
 ### Base Model
 - OpenAI
 
