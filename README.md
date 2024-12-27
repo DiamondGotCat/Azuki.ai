@@ -48,7 +48,7 @@ Azuki.ai has Step up to `N(Next) Models`.
 - Help Coding (with Pull Requests)
 
 ### How to help (Very Hard) - Lend me the machine for free
-I'm trying to make more professional models (Mikata AI), but I can't make them with the machine I have.
+I'm trying to make more professional models (Hinode AI), but I can't make them with the machine I have.
 If you can lend me your machine for free, please let me know with [email](mailto:chii@kamu.jp).
 
 ## Base
