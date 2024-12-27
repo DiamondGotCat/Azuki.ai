@@ -1,4 +1,6 @@
 
+# The beta version of [Hinode AI](https://github.com/DiamondGotCat/Hinode-AI) has been released, allowing for more continuous, natural conversations.
+
 https://github.com/user-attachments/assets/a7161ca2-0f54-417b-bc22-4097bb9f061b
 
 **STATUS: V2n Released!**
